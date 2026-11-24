@@ -1,0 +1,58 @@
+[
+  {
+    "id": "api-101",
+    "category": "JavaScript",
+    "question": "¿Qué devuelve Array.isArray([])?",
+    "options": ["false", "true", "undefined", "null"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "api-102",
+    "category": "React",
+    "question": "¿Cuál de estas acciones actualiza correctamente un estado contador?",
+    "options": ["contador++", "setContador(prev => prev + 1)", "props.contador = 1", "document.contador = 1"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "api-103",
+    "category": "React",
+    "question": "¿Para qué sirve el return de limpieza de un useEffect?",
+    "options": ["Para devolver HTML", "Para crear una prop", "Para limpiar suscripciones o temporizadores", "Para enviar una petición POST"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "api-104",
+    "category": "JavaScript",
+    "question": "¿Qué método crea un nuevo array al transformar cada elemento?",
+    "options": ["forEach", "map", "push", "pop"],
+    "correctAnswer": 1
+  },
+  {
+    "id": "api-105",
+    "category": "React",
+    "question": "¿Qué permite Context API?",
+    "options": ["Compartir valores con componentes descendientes", "Compilar JSX sin herramientas", "Crear una base de datos SQL", "Evitar todos los renders"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "api-106",
+    "category": "Asincronía",
+    "question": "¿Qué palabra clave permite esperar una promesa dentro de una función async?",
+    "options": ["yield", "wait", "await", "pause"],
+    "correctAnswer": 2
+  },
+  {
+    "id": "api-107",
+    "category": "React",
+    "question": "¿Qué se suele usar para renderizar un mensaje solo si hay un error?",
+    "options": ["Un renderizado condicional", "Un archivo package.json", "Un setInterval obligatorio", "Un nuevo proyecto"],
+    "correctAnswer": 0
+  },
+  {
+    "id": "api-108",
+    "category": "JavaScript",
+    "question": "¿Qué operador compara valor y tipo sin conversión implícita?",
+    "options": ["==", "=", "===", "!="],
+    "correctAnswer": 2
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "category": "Fundamentos",
+    "question": "¿Qué es JSX en React?",
+    "options": [
+      "Una extensión de sintaxis para describir interfaces",
+      "Un lenguaje de estilos que sustituye CSS",
+      "Un servidor de aplicaciones",
+      "Una base de datos integrada"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "category": "Componentes",
+    "question": "¿Cómo se envían datos de un componente padre a un hijo?",
+    "options": ["Mediante props", "Mediante querySelector", "Mediante localStorage obligatoriamente", "Mediante un archivo CSS"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "category": "Hooks",
+    "question": "¿Qué hook permite guardar estado local en un componente?",
+    "options": ["useMemo", "useEffect", "useState", "useRef"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 4,
+    "category": "Eventos",
+    "question": "¿Cuál es la forma correcta de asociar un evento de clic en JSX?",
+    "options": ["onclick='guardar()'", "onClick={guardar}", "click={guardar()}", "addClick={guardar}"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "category": "Renderizado",
+    "question": "¿Para qué se utiliza la prop key al renderizar una lista?",
+    "options": ["Para cambiar la tipografía", "Para ocultar elementos", "Para identificar elementos entre renders", "Para hacer llamadas HTTP"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "category": "Hooks",
+    "question": "¿Qué hook se utiliza habitualmente para ejecutar efectos secundarios?",
+    "options": ["useEffect", "useId", "useReducer", "useCallback"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "category": "Estado",
+    "question": "¿Qué ocurre cuando se actualiza un estado mediante su setter?",
+    "options": ["Se recarga siempre la página completa", "React puede volver a renderizar el componente", "Se borra el DOM", "Se reinicia el navegador"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "category": "Formularios",
+    "question": "¿Qué caracteriza a un input controlado en React?",
+    "options": ["Su valor se gestiona mediante estado", "No admite eventos", "Solo puede utilizarse en formularios HTML", "Su valor nunca cambia"],
+    "correctAnswer": 0
+  }
+]
